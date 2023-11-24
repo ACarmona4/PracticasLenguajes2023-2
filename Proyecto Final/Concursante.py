@@ -10,7 +10,7 @@ class Concursante(Persona):
         self.clasificacion = "No"
         self.estado = 'No clasificó a la ronda final'
         self.tiempoInicial = random.randint(25, 180)
-        self.premioObtenido = 0
+        self.premioObtenido = int(0)
         self.ultimaPreguntaRespondida = 0
         self.comodinesUtilizados = []
         
