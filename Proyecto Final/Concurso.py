@@ -6,7 +6,7 @@ class Concurso():
     
     def __init__(self):
         self.concursantes = Lista()
-        self.dineroEntregado = 0
+        self.dineroEntregado = int(0)
         
     #Método que crea los concursantes para la ronda de clasificación
     def registrarConcursantes(self):
